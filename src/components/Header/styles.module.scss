@@ -1,0 +1,33 @@
+.headerContainer{
+    height: 8rem;
+    border-bottom: 1px solid;
+}
+
+.headerConttent{
+    max-width: 1120px;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    display: flex;
+    align-items: center;
+
+    nav{
+        margin-left: 5rem;
+        height: 5rem;
+
+        a{
+            display: inline-block;
+            position: relative;
+            height: 5rem;
+            line-height: 5rem;
+            color: white;
+
+            transition: 0.2s;
+
+            & + a {
+                margin-left: 1.6rem;
+            }
+        }
+    }
+}
