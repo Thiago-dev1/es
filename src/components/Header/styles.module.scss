@@ -1,22 +1,23 @@
-.headerContainer{
-    height: 8rem;
+.headerContainer {
+    height: 8.0rem;
     border-bottom: 1px solid;
 }
 
-.headerConttent{
+.headerConttent {
     max-width: 1120px;
-    height: 8rem;
+    height: rem;
     margin: 0 auto;
     padding: 0 2rem;
 
     display: flex;
     align-items: center;
 
-    nav{
+    nav {
         margin-left: 5rem;
         height: 5rem;
 
-        a{
+        a {
+            font-size: 2.4rem;
             display: inline-block;
             position: relative;
             height: 5rem;
@@ -25,7 +26,7 @@
 
             transition: 0.2s;
 
-            & + a {
+            &+a {
                 margin-left: 1.6rem;
             }
         }

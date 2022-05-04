@@ -18,7 +18,7 @@ export function FormLogin() {
 
             <button type='submit'>Entrar</button>
 
-            <p>Cadastrar novo Usuario</p>
+            <a>Realizar novo cadastro</a>
         </form>
     )
 }
