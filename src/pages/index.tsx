@@ -1,6 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { FormLogin } from '../components/FormLogin'
+import { FormLogin } from './FormLogin'
+
+
+
 
 
 export default function Home() {
@@ -10,7 +13,7 @@ export default function Home() {
         <title>Login</title>
       </Head>
       
-      <FormLogin/>
+      <FormLogin />
     </>
   )
 }
