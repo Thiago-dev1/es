@@ -1,8 +1,8 @@
-
+import styles from './styles.module.scss'
 
 export function FormLogin() {
     return (
-        <form>
+        <form className={styles.FormLogin}>
             <h2>Login</h2>
             <input 
                 type="text" 
@@ -15,6 +15,10 @@ export function FormLogin() {
                 name="password"
                 placeholder="Digite sua senha"
             />
+
+            <button type='submit'>Entrar</button>
+
+            <p>Cadastrar novo Usuario</p>
         </form>
     )
 }
