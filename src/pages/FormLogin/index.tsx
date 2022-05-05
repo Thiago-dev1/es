@@ -22,6 +22,11 @@ export function FormLogin() {
             <Link
                 href="/FormCadastro"
             ><a>Realizar novo cadastro</a></Link>
+            <br />
+            <Link
+                href="/Lobby"
+            ><a>Testando</a></Link>
+
 
         </form>
     )
