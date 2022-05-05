@@ -35,7 +35,7 @@ export default function FormCadastro() {
 
                 <Link
                     href="/"
-                ><a>Realizar novo cadastro</a></Link>
+                ><a>Realizar Login</a></Link>
 
             </form>
         </Link>
